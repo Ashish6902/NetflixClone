@@ -4,15 +4,15 @@
 }
 body
 {
-    background-color: rgba(8, 8, 8, 0.89);
+  background-color: rgba(8, 8, 8, 0.89);
 }
 .first_container
 {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center top;
-    height : 90vh;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center top;
+  height : 95vh;
 }
 .navbar {
   display: flex;
@@ -64,18 +64,55 @@ body
   border-radius: 3px;
 }
 
+.buttons a
+{
+  color: white;
+  text-decoration: none ;
+}
 .second_container
 {
-    margin-top: 1.25vh;
-    margin-bottom: 1.25vh;
-    height: 77vh;
-    background-color: black;
+  margin-top: 1.25vh;
+  margin-bottom: 1.25vh;
+  height: 77vh;
+  background-color: black;
 }
 
 .third_container
 {
-    margin-top: 1.25vh;
-    margin-bottom: 1.25vh;
-    height: 77vh;
-    background-color: black;   
+  margin-top: 1.25vh;
+  margin-bottom: 1.25vh;
+  height: 77vh;
+  background-color: black;   
+}
+
+.forth_container
+{
+  margin-top: 1.25vh;
+  margin-bottom: 1.25vh;
+  height: 77vh;
+  background-color: black;   
+}
+
+.fifth_container
+{
+  margin-top: 1.25vh;
+  margin-bottom: 1.25vh;
+  height: 77vh;
+  background-color: black;   
+}
+
+.sixth_container
+{
+  margin-top: 1.25vh;
+  margin-bottom: 1.25vh;
+  height: 110vh;
+  background-color: black;   
+}
+
+.seven_container
+{
+  margin-top: 1.25vh;
+  margin-bottom: 1.25vh;
+  height: 50vh;
+  background-color: black;  
 }
